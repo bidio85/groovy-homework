@@ -47,7 +47,7 @@ pipeline {
          stage('devop') {
            
             steps {
-                sh 'i love linux and devops'
+                echo 'i love linux and devops'
                
             }
         } 
