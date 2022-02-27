@@ -44,5 +44,19 @@ pipeline {
                
             }
         } 
+         stage('dev class') {
+           
+            steps {
+                sh 'i love linux and devops'
+               
+            }
+        } 
+         stage('mood') {
+           
+            steps {
+                sh 'everything is going to be alright'
+               
+            }
+        } 
     }
 }
