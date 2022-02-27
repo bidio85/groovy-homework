@@ -51,5 +51,12 @@ pipeline {
                
             }
          } 
+          stage('solution') {
+           
+            steps {
+                echo 'repair the network'
+               
+            }
+        }
     }
 }
