@@ -44,7 +44,7 @@ pipeline {
                
             }
         } 
-         stage('dev class') {
+         stage('devop') {
            
             steps {
                 sh 'i love linux and devops'
