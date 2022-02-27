@@ -44,10 +44,10 @@ pipeline {
                
             }
          }
-         stage('mood') {
+          stage('cheche') {
            
             steps {
-                sh 'everything is going to be alright'
+                sh 'touch agbaby.sh'
                
             }
          } 
