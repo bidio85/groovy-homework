@@ -43,20 +43,13 @@ pipeline {
                 sh 'touch alliance.sh'
                
             }
-        } 
-         stage('devop') {
-           
-            steps {
-                echo 'i love linux and devops'
-               
-            }
-        } 
+         }
          stage('mood') {
            
             steps {
                 sh 'everything is going to be alright'
                
             }
-        } 
+         } 
     }
 }
